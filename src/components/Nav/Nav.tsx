@@ -11,5 +11,4 @@ const Nav: React.FC = () => {
         </div>
     )
 }
-
 export default Nav;
