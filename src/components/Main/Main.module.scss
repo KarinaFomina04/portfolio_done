@@ -2,10 +2,12 @@
   height: 100vh;
   background-color: #f9f9f9;
 }
+.column {
+  flex-direction: column;
+}
 
 .greetings {
   width: 700px;
-  background-color: #c5a1c5;
   font-family: Poppins,sans-serif;
   color: #2d2e32;
   font-size: 2.5rem;
@@ -15,4 +17,34 @@
   width: 300px;
   height: 400px;
   background-color: #ff95fe;
+}
+
+h2 {
+  border-right: 2px solid rgba(45,46,50,.5);
+  color: #2d2e32;
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  margin-right: 7rem;
+  padding-right: 2rem;
+}
+
+li {
+  list-style-type: none;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  cursor: pointer;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  width: 4.5rem;
+}
+
+.complex_list {
+  margin-right: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
 }

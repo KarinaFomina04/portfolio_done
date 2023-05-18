@@ -3,12 +3,32 @@
   background-color: #fff;
 }
 
-.container{
-  border: 1px solid;
-  height: 100%;
-  width: 55%;
-  margin: 0 auto;
-  display: flex;
+h2 {
+  border-right: 2px solid rgba(45,46,50,.5);
+  color: #2d2e32;
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  margin-right: 7rem;
+  padding-right: 2rem;
+}
+
+li {
+  list-style-type: none;
   align-items: center;
-  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  cursor: pointer;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  width: 4.5rem;
+}
+
+.complex_list {
+  margin-right: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
 }
