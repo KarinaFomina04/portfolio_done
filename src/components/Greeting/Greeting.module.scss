@@ -1,0 +1,19 @@
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.greeting {
+  width: 50%;
+  font-family: Poppins,sans-serif;
+  color: #2d2e32;
+  font-size: 1.5rem;
+}
+
+.photo {
+  border: 3px solid #2d2e32;
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+}
