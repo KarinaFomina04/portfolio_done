@@ -9,7 +9,7 @@ import scss from "./icons/scss.svg";
 const Skills: React.FC = () => {
     return (
         <div className={s.skills}>
-                <h2 >Tech Stack</h2>
+                <h2>Tech Stack</h2>
                 <ul className={s.complex_list}>
                     <li>
                         <img src={html5} alt="HTML5" width={40}/>
