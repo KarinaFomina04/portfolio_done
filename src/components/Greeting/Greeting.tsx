@@ -1,5 +1,7 @@
 import React from "react";
 import s from './Greeting.module.scss';
+import linkedin from '/icons/linkedin.svg'
+import github from '/icons/github.svg'
 
 
 export const Greeting: React.FC = () => {
@@ -12,14 +14,10 @@ export const Greeting: React.FC = () => {
                     📍</p>
                 <span>
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/karina-kryshneva-192a4a221/">
-                        <i className="fa-brands fa-linkedin">
-                            <img src="/linkedin.svg" />
-                        </i>
+                        <img src={linkedin} alt="linkedin"/>
                     </a>
-                    <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/karina-kryshneva-192a4a221/">
-                        <i className="fa-brands fa-linkedin">
-                            <img src="/linkedin.svg" />
-                        </i>
+                    <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/KarinaFomina04">
+                        <img src={github} alt="github"/>
                     </a>
                 </span>
             </div>
