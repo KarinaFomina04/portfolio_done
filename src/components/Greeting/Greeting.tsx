@@ -13,6 +13,7 @@ export const Greeting: React.FC = () => {
                 <p>Hi, I'm Karyna Kryshneva. A passionate Front-end React Developer based in Poznan, Poland.
                     📍</p>
                 <span>
+
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/karina-kryshneva-192a4a221/">
                         <img src={linkedin} alt="linkedin"/>
                     </a>
