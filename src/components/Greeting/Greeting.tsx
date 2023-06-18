@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Greeting.module.scss';
-import linkedin from '/icons/linkedin.svg'
-import github from '/icons/github.svg'
+import linkedin from './icons/linkedin.svg'
+import github from './icons/github.svg'
 
 
 export const Greeting: React.FC = () => {
@@ -13,7 +13,6 @@ export const Greeting: React.FC = () => {
                 <p>Hi, I'm Karyna Kryshneva. A passionate Front-end React Developer based in Poznan, Poland.
                     📍</p>
                 <span>
-
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/karina-kryshneva-192a4a221/">
                         <img src={linkedin} alt="linkedin"/>
                     </a>
