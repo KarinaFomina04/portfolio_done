@@ -14,7 +14,7 @@ export const Greeting: React.FC = () => {
                     📍</p>
                 <span>
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/karina-kryshneva-192a4a221/">
-                        <img src={linkedin} alt="linkedin"/>
+                        <img src={linkedin} alt="linkedin" />
                     </a>
                     <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/KarinaFomina04">
                         <img src={github} alt="github"/>

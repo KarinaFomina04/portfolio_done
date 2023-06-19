@@ -5,6 +5,7 @@ const Nav: React.FC = () => {
     return (
         <div className={s.nav}>
             <a href="src/componentst/components/Main">Номе</a>
+            <a href="src/componentst/components/Skills">About</a>
             <a href="src/componentst/components/Nav">Projects</a>
             <a href="src/componentst/components/Nav">Contact</a>
         </div>
