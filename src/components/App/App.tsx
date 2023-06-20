@@ -6,6 +6,7 @@ import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import {About} from "../About/About";
 
 
 const App: React.FC = () => {
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <div className={s.App}>
             <Header/>
             <Main/>
+            <About/>
             <Projects/>
             <Contact/>
             <Footer/>
