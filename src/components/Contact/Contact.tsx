@@ -4,7 +4,7 @@ import sContainer from "../Common/Styles/Container.module.scss";
 
 const Contact: React.FC = () => {
     return (
-        <div className={s.contact}>
+        <div id="contact" className={s.contact}>
             <div className={sContainer.container  }>
                 Contact
             </div>

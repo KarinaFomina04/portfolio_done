@@ -5,7 +5,7 @@ import sContainer from '../Common/Styles/Container.module.scss';
 const Projects: React.FC = () => {
     return (
         <div className={s.projects}>
-            <div className={sContainer.container  }>
+            <div id="project" className={sContainer.container  }>
                 Projects
             </div>
         </div>

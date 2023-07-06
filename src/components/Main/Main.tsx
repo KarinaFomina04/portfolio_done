@@ -7,7 +7,7 @@ import {Greeting} from "../Greeting/Greeting";
 
 const Main: React.FC = () => {
     return (
-        <div className={s.main}>
+        <div id="main" className={s.main}>
             <div className={sContainer.container}>
                 <div className={s.column}>
                     <Greeting/>
