@@ -6,7 +6,12 @@ const Skills: React.FC = () => {
     return (
         <div className={s.skills}>
             <div className={sContainer.containerb  }>
-                About
+                <h2>Tech Stack</h2>
+                <ul>
+                    <li>
+                        <img src="" alt=""/>
+                    </li>
+                </ul>
             </div>
         </div>
     )
