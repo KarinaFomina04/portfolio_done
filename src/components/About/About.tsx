@@ -5,11 +5,10 @@ import sContainer from '../Common/Styles/Container.module.scss'
 
 export const About: React.FC = () => {
     return (
-        <div id="about" className={s.about}>
-            <div className={sContainer.container}>
-                <h1>A dedicated Front-end Developer
-                based in Poznan, Poland 🚩</h1>
-                <h2>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML,
+        <div className={sContainer.container} >
+            <div id="about" className={s.about}>
+                <h1>A dedicated Front-end Developer based in Poznan, Poland 🚩</h1>
+                <h2 className={s.description}>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML,
                     CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining
                     responsive websites that offer a smooth user experience. My expertise lies in crafting
                     dynamic, engaging interfaces through writing clean and optimized code and utilizing
