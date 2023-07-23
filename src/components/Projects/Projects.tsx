@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     return (
         <div className={s.projects}>
             <div id="project" className={sContainer.container  }>
-                Projects
+                My projects
             </div>
         </div>
     )
